@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 800px;
+    width: 800px;
+    margin: auto;
+}
+
+.grid-square {
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
